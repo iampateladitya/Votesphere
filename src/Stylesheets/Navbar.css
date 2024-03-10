@@ -1,0 +1,99 @@
+.yourUniqueNavbarClassName input[type="checkbox"],
+.yourUniqueNavbarClassName .yourUniqueHamburgerLinesClassName {
+    display: none;
+}
+
+.yourUniqueNavbarClassName {
+    box-shadow: 0 5px 4px rgba(146, 161, 176, 0.093);
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.07);
+    color: rgb(0, 0, 0);
+    z-index: 100;
+}
+
+.yourUniqueNavbarContainerClassName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.yourUniqueLogoClassName {
+    cursor: pointer;
+    user-select: none;
+    margin-left: 3rem;
+}
+
+.yourUniqueMenuItemsClassName {
+    order: 2;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.yourUniqueMenuItemsClassName li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.yourUniqueMenuItemsClassName li a {
+    transition: all 0.5s ease;
+}
+
+.yourUniqueMenuItemsClassName li a:hover {
+    margin: 2px;
+    font-weight: bolder;
+}
+
+.yourUniqueNavbarContainerClassName ul a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+    position: relative;
+}
+
+.yourUniqueNavbarContainerClassName ul a:after {
+    content: "";
+    position: absolute;
+    background: var(--primary-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.yourUniqueNavbarContainerClassName ul a:hover:after {
+    width: 100%;
+}
+
+/* Dropdown Styles */
+.yourUniqueDropdownClassName {
+    position: relative;
+    display: inline-block;
+}
+
+.yourUniqueDropdownContentClassName {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.yourUniqueDropdownContentClassName a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.yourUniqueDropdownContentClassName a:hover {
+    background-color: #0000001f;
+}
+
+.yourUniqueDropdownClassName:hover .yourUniqueDropdownContentClassName {
+    display: block;
+}
